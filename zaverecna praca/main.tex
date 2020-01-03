@@ -1,0 +1,72 @@
+% !TeX spellcheck = en_US
+\documentclass[fleqn]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[slovak]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{multirow}
+
+\title{Biochemický reaktor - úvod}
+\author{Matej Kintler}
+\date{\today}
+
+\begin{document}
+	
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{Uvod}
+
+\newpage
+
+\section{Biochemický reaktor}
+\subsection{Základné informácie}
+\input{content/ssec1}
+
+\subsection{Typy bioreaktorov}
+\input{content/ssec2}
+
+\subsection{Parametre opisujúce bioreaktor a ich význam}
+\input{content/ssec3}
+
+\subsection{Matematické modely prietokového biochemického reaktora}
+\input{content/ssec4}
+
+\section{Analýza matematických modelov}
+V predchádzajúcej časti sme spomenuli viacero modelov, ktorými môžme opísať biochemický reaktor. V tejto časti sa budeme venovať analýze dvoch modelov a to Monod modelu doplnenému o produktovú časť a modelu, taktiež s produktovou časťou, ale s vplyvom inhibície.
+
+\subsection{Dynamika}
+\input{content/ssec5}
+
+\subsection{Stabilita}
+Ustalene stavy pri roznych z.p. \\
+Ustalene stavy pri roznych $s_{in}$ \\
+Ustalene stavy pri roznych parametroch mu(s) a Ks \\
+
+\section{Odhad parametrov}
+\subsection{Optimalizacne metody}
+
+\subsection{Pristupy k odhadu}
+riesenie diff rovnic; pomocou diferencie
+
+\section{Vysledky}
+
+\section{Zaver}
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{literatura}
+
+\end{document}

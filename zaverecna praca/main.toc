@@ -1,0 +1,15 @@
+\babel@toc {slovak}{}
+\contentsline {section}{\numberline {1}Uvod}{3}{section.1}% 
+\contentsline {section}{\numberline {2}Biochemick\IeC {\'y} reaktor}{4}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Z\IeC {\'a}kladn\IeC {\'e} inform\IeC {\'a}cie}{4}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Typy bioreaktorov}{4}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Parametre opisuj\IeC {\'u}ce bioreaktor a ich v\IeC {\'y}znam}{5}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Matematick\IeC {\'e} modely prietokov\IeC {\'e}ho biochemick\IeC {\'e}ho reaktora}{6}{subsection.2.4}% 
+\contentsline {section}{\numberline {3}Anal\IeC {\'y}za matematick\IeC {\'y}ch modelov}{8}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Dynamika}{8}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Stabilita}{10}{subsection.3.2}% 
+\contentsline {section}{\numberline {4}Odhad parametrov}{10}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Optimalizacne metody}{10}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Pristupy k odhadu}{10}{subsection.4.2}% 
+\contentsline {section}{\numberline {5}Vysledky}{10}{section.5}% 
+\contentsline {section}{\numberline {6}Zaver}{10}{section.6}% 
