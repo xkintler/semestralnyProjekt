@@ -8,8 +8,8 @@
 \contentsline {section}{\numberline {3}Anal\IeC {\'y}za matematick\IeC {\'y}ch modelov}{8}{section.3}% 
 \contentsline {subsection}{\numberline {3.1}Dynamika}{8}{subsection.3.1}% 
 \contentsline {subsection}{\numberline {3.2}Stabilita}{10}{subsection.3.2}% 
-\contentsline {section}{\numberline {4}Odhad parametrov}{10}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Optimalizacne metody}{10}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Pristupy k odhadu}{10}{subsection.4.2}% 
-\contentsline {section}{\numberline {5}Vysledky}{10}{section.5}% 
-\contentsline {section}{\numberline {6}Zaver}{10}{section.6}% 
+\contentsline {section}{\numberline {4}Odhad parametrov}{13}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Optimalizacne metody}{13}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Pristupy k odhadu}{13}{subsection.4.2}% 
+\contentsline {section}{\numberline {5}Vysledky}{13}{section.5}% 
+\contentsline {section}{\numberline {6}Zaver}{13}{section.6}% 
