@@ -1,0 +1,7 @@
+Na začiatku by bolo vhodné spomenúť, že nie vždy dokážeme získať analytické riešenie modelu, ktoré by nám veľmi uľahčilo prác, a preto je nutné priebehy modelu počítať numerickými metódami. Spôsob, akým získať neznáme parametre modelu, môže byť rôzny a zavisí najmä od množstva údajov, ktorými disponujeme. 
+
+V prípade, že z reálneho zariadenia dokážeme získať viacere časové priebehy, teda merať, môžeme parametre odhadnúť na základe aproximácie derivácie. Vysvetlíme si to na príklade biochemického reaktora. V prípade, že dokážeme merať časový priebeh koncentrácie biomasy a substrátu, môžeme na základe rovnice \ref{eq:5} odhadnúť parametre $K_{M}$ a $\mu_{m}$. 
+
+Prvý prístup je síce veľmi jednoduchý, ale má svoje nevýhody. Najväčším problémom je však skutočnosť, že bežne meriame iba koncentráciu substrátu a tým pádom prichádzame značnú časť informácií. Druhý prístup obchádza tento problém a zameriava sa na hľadanie neznámych parametrov samotných diferenciálnych rovníc. Zatiaľ čo návrh optimalizačného problému sa príliš nezmení, zložitosť výpočtu sa výrazne zvýši. V tomto prípade je nutné, v každom nameranom bode, niekoľkokrát numericky vyhodnotiť priebehy koncentrácie biomasy, produktu a aj substrátu a porovnať ich s nameraným signálom  tak, aby sme získali optimálne riešenie.
+
+Ostáva tu však otázka, ako správne voliť štruktúru špecifickej rýchlosti rastu, aby sme dokázali správne určiť odhadované parametre. Túto informáciu nevieme jednoducho získať z nameraných údajov a môžeme dospieť k nesprávnemu modelu.

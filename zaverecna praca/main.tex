@@ -1,4 +1,3 @@
-% !TeX spellcheck = en_US
 \documentclass[fleqn]{article}
 
 \usepackage[utf8]{inputenc}
@@ -14,59 +13,102 @@
 \usepackage{xcolor}
 \usepackage{array}
 \usepackage{multirow}
+\usepackage{units}
+\usepackage{unitsdef}
+\usepackage[paper=a4paper,margin=1in]{geometry}
 
-\title{Biochemický reaktor - úvod}
-\author{Matej Kintler}
-\date{\today}
+
+\newcommand{\dd}{\text{d}}
+
 
 \begin{document}
 	
-\maketitle
+\begin{titlepage}
+	\begin{center}
+		\vspace*{1cm}
+		\LARGE
+		SLOVENSKÁ TECHNICKÁ UNIVERZITA V BRATISLAVE \\
+		\Large
+		FAKULTA CHEMICKEJ A POTRAVINÁRSKEJ TECHNOLÓGIE \\
+		\vspace*{.5cm}
+		\large
+		Ústav informatizácie, automatizácie a matematiky \\
+		\vspace*{5cm}
+		
+		\Huge
+		\textbf{Štúdium modelov biochemických reaktorov a odhad ich parametrov}
+		
+		\vspace{0.5cm}
+		\LARGE
+		Semestrálna práca
+		
+		\vspace{1.5cm}
+		
+		\textbf{Matej Kintler}
+		
+		\vfill
+		\begin{flushleft}
+			\large
+			Vedúci práce: doc. Ing. Radoslav Paulen, PhD.
+		\end{flushleft}
+	
+		\vspace{1.5cm}
+	
+		\Large
+		Bratislava\\
+		13. január 2020
+		
+	\end{center}
+\end{titlepage}
+
+\newgeometry{top=3cm,bottom=3cm,right=3cm,left=3cm}
 \newpage
 
 \tableofcontents
-\newpage
-
-\section{Uvod} % RP: spell-check
+\pagestyle{empty}
 
 \newpage
+\pagestyle{plain}
+
+\section{Úvod}
+\input{content/ssec_intro}
 
 \section{Biochemický reaktor}
 \subsection{Základné informácie}
-\input{content/ssec1}
-% RP: Nazvy typu ``ssec1'' su kontraproduktivne. Co ak budete menit poradie kapitol? Skor ma zmysel mat ``ssec_intro'' a pod.
+\input{content/ssec_basic_info}
 
-\subsection{Typy bioreaktorov}
-%RP: Nepouzival by som ``bioreaktor'' ale iba ``biochemický reaktor''
-\input{content/ssec2}
+\subsection{Typy biochemických reaktorov}
+\input{content/ssec_br_types}
 
-\subsection{Parametre opisujúce bioreaktor a ich význam}
-\input{content/ssec3}
+\subsection{Parametre opisujúce biochemický reaktor a ich význam}
+\input{content/ssec_chemostat_param}
 
 \subsection{Matematické modely prietokového biochemického reaktora}
-\input{content/ssec4}
-\newpage
+\input{content/ssec_math_models}
 
 \section{Analýza matematických modelov}
-V predchádzajúcej časti sme spomenuli viacero modelov, ktorými môžme opísať biochemický reaktor. V tejto časti sa budeme venovať analýze dvoch modelov a to Monod modelu doplnenému o produktovú časť a modelu, taktiež s produktovou časťou, ale s vplyvom inhibície.
-% RP: ``môžme'' nie je spisovny tvar; spravne je ``môžeme''
+V predchádzajúcej časti sme spomenuli viacero modelov, ktorými môžeme opísať biochemický reaktor. V tejto časti sa budeme venovať analýze dvoch modelov a to Monod modelu doplnenému o produktovú časť a modelu, taktiež s produktovou časťou, ale s vplyvom inhibície.
 
 \subsection{Dynamika}
-\input{content/ssec5}
+\input{content/ssec_dynamics}
 
 \subsection{Stabilita}
-\input{content/ssec6}
-\newpage
+\input{content/ssec_stability}
 
 \section{Odhad parametrov}
-\subsection{Optimalizacne metody} % RP: spell-check
+Je zrejmé, že nastaviť optimálny chod biochemického reaktora je zložitá záležitosť a jeho pracovný réžim treba prispôsobiť na základe daného fermentačného média, teda na základe jeho vlastných parametrov -- maximálnej špecifickej rýchlosti rastu, Michaelisovej konštanty a prípadne konštanty inhibície. Tie však nepoznáme a je nutné ich získať z jednotlivých časových priebehov, najčastejšie koncentrácie substrátu.
 
-\subsection{Pristupy k odhadu} % RP: spell-check
-riesenie diff rovnic; pomocou diferencie
+\subsection{Optimalizačné metódy}
+\input{content/ssec_opt_methods}
 
-\section{Vysledky} % RP: spell-check
+\subsection{Prístupy k odhadu}
+\input{content/ssec_approx_methods}
 
-\section{Zaver} % RP: spell-check
+\section{Výsledky}
+\input{content/ssec_results}
+
+\section{Záver}
+\input{content/ssec_conclusion}
 
 \newpage
 \bibliographystyle{plain}

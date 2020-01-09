@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.25)  6 JAN 2020 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.25)  9 JAN 2020 15:04
 entering extended mode
 **./main.tex
 (main.tex
@@ -356,25 +356,418 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@cntb=\count118
 \multirow@dima=\skip50
 \bigstrutjot=\dimen129
-) (main.aux)
+)
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\units.sty"
+Package: units 1998/08/04 v0.9b Typesetting units
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\nicefrac.sty
+"
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip51
+\L@UnitsRaiseTextstyle=\skip52
+\L@UnitsRaiseScriptstyle=\skip53
+))
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef\unitsdef.
+sty"
+Package: unitsdef 2005/01/04 v0.2 Typesetting units
+File: unitsdef.dtx 2004/01/05 Typesetting units a proper way
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) ("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty
+"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+LaTeX Info: Redefining \SI on input line 293.
+LaTeX Info: Redefining \meter on input line 331.
+LaTeX Info: Redefining \gram on input line 332.
+LaTeX Info: Redefining \kilogram on input line 333.
+LaTeX Info: Redefining \mole on input line 334.
+LaTeX Info: Redefining \second on input line 335.
+LaTeX Info: Redefining \ampere on input line 336.
+LaTeX Info: Redefining \kelvin on input line 337.
+LaTeX Info: Redefining \candela on input line 338.
+LaTeX Info: Redefining \picometer on input line 341.
+LaTeX Info: Redefining \nanometer on input line 342.
+LaTeX Info: Redefining \micrometer on input line 343.
+LaTeX Info: Redefining \millimeter on input line 344.
+LaTeX Info: Redefining \centimeter on input line 345.
+LaTeX Info: Redefining \decimeter on input line 346.
+LaTeX Info: Redefining \kilometer on input line 347.
+LaTeX Info: Redefining \femtogram on input line 350.
+LaTeX Info: Redefining \picogram on input line 351.
+LaTeX Info: Redefining \nanogram on input line 352.
+LaTeX Info: Redefining \microgram on input line 353.
+LaTeX Info: Redefining \milligram on input line 354.
+LaTeX Info: Redefining \femtomole on input line 357.
+LaTeX Info: Redefining \picomole on input line 358.
+LaTeX Info: Redefining \nanomole on input line 359.
+LaTeX Info: Redefining \micromole on input line 360.
+LaTeX Info: Redefining \millimole on input line 361.
+LaTeX Info: Redefining \attosecond on input line 364.
+LaTeX Info: Redefining \femtosecond on input line 365.
+LaTeX Info: Redefining \picosecond on input line 366.
+LaTeX Info: Redefining \nanosecond on input line 367.
+LaTeX Info: Redefining \microsecond on input line 368.
+LaTeX Info: Redefining \millisecond on input line 369.
+LaTeX Info: Redefining \picoampere on input line 372.
+LaTeX Info: Redefining \nanoampere on input line 373.
+LaTeX Info: Redefining \microampere on input line 374.
+LaTeX Info: Redefining \milliampere on input line 375.
+LaTeX Info: Redefining \kiloampere on input line 376.
+LaTeX Info: Redefining \percent on input line 379.
+LaTeX Info: Redefining \liter on input line 385.
+LaTeX Info: Redefining \femtoliter on input line 388.
+LaTeX Info: Redefining \picoliter on input line 389.
+LaTeX Info: Redefining \nanoliter on input line 390.
+LaTeX Info: Redefining \microliter on input line 391.
+LaTeX Info: Redefining \milliliter on input line 392.
+LaTeX Info: Redefining \centiliter on input line 393.
+LaTeX Info: Redefining \deciliter on input line 394.
+LaTeX Info: Redefining \hectoliter on input line 395.
+LaTeX Info: Redefining \cubicmeter on input line 397.
+LaTeX Info: Redefining \cubicmicrometer on input line 398.
+LaTeX Info: Redefining \cubicmillimeter on input line 399.
+LaTeX Info: Redefining \squaremeter on input line 402.
+LaTeX Info: Redefining \ar on input line 404.
+LaTeX Info: Redefining \hektar on input line 405.
+LaTeX Info: Redefining \squarecentimeter on input line 407.
+LaTeX Info: Redefining \squaremillimeter on input line 408.
+LaTeX Info: Redefining \squarekilometer on input line 409.
+LaTeX Info: Redefining \ton on input line 411.
+LaTeX Info: Redefining \volt on input line 414.
+LaTeX Info: Redefining \millivolt on input line 415.
+LaTeX Info: Redefining \kilovolt on input line 417.
+LaTeX Info: Redefining \watt on input line 419.
+LaTeX Info: Redefining \milliwatt on input line 420.
+LaTeX Info: Redefining \kilowatt on input line 421.
+LaTeX Info: Redefining \megawatt on input line 422.
+LaTeX Info: Redefining \coulomb on input line 424.
+LaTeX Info: Redefining \ohm on input line 432.
+LaTeX Info: Redefining \kiloohm on input line 434.
+LaTeX Info: Redefining \megaohm on input line 435.
+LaTeX Info: Redefining \gigaohm on input line 436.
+LaTeX Info: Redefining \siemens on input line 438.
+LaTeX Info: Redefining \millisiemens on input line 439.
+LaTeX Info: Redefining \farad on input line 440.
+LaTeX Info: Redefining \femtofarad on input line 441.
+LaTeX Info: Redefining \picofarad on input line 442.
+LaTeX Info: Redefining \nanofarad on input line 443.
+LaTeX Info: Redefining \microfarad on input line 444.
+LaTeX Info: Redefining \millifarad on input line 445.
+LaTeX Info: Redefining \joule on input line 446.
+LaTeX Info: Redefining \millijoule on input line 447.
+LaTeX Info: Redefining \kilojoule on input line 448.
+LaTeX Info: Redefining \megajoule on input line 449.
+LaTeX Info: Redefining \calory on input line 451.
+LaTeX Info: Redefining \kilocalory on input line 452.
+LaTeX Info: Redefining \electronvolt on input line 453.
+LaTeX Info: Redefining \millielectronvolt on input line 454.
+LaTeX Info: Redefining \kiloelectronvolt on input line 455.
+LaTeX Info: Redefining \megaelectronvolt on input line 456.
+LaTeX Info: Redefining \gigaelectronvolt on input line 457.
+LaTeX Info: Redefining \teraelectronvolt on input line 458.
+LaTeX Info: Redefining \minute on input line 460.
+LaTeX Info: Redefining \hour on input line 461.
+LaTeX Info: Redefining \days on input line 462.
+LaTeX Info: Redefining \celsius on input line 467.
+LaTeX Info: Redefining \radian on input line 470.
+LaTeX Info: Redefining \steradian on input line 471.
+LaTeX Info: Redefining \degree on input line 476.
+LaTeX Info: Redefining \arcmin on input line 480.
+LaTeX Info: Redefining \arcsec on input line 481.
+LaTeX Info: Redefining \hertz on input line 517.
+LaTeX Info: Redefining \kilohertz on input line 518.
+LaTeX Info: Redefining \megahertz on input line 519.
+LaTeX Info: Redefining \gigahertz on input line 520.
+LaTeX Info: Redefining \newton on input line 522.
+LaTeX Info: Redefining \millinewton on input line 523.
+LaTeX Info: Redefining \kilonewton on input line 524.
+LaTeX Info: Redefining \pascal on input line 525.
+LaTeX Info: Redefining \hectopascal on input line 526.
+LaTeX Info: Redefining \uBar on input line 527.
+LaTeX Info: Redefining \millibar on input line 528.
+LaTeX Info: Redefining \weber on input line 529.
+LaTeX Info: Redefining \tesla on input line 530.
+LaTeX Info: Redefining \henry on input line 531.
+LaTeX Info: Redefining \lumen on input line 532.
+LaTeX Info: Redefining \lux on input line 533.
+LaTeX Info: Redefining \becquerel on input line 534.
+LaTeX Info: Redefining \megabecquerel on input line 535.
+LaTeX Info: Redefining \curie on input line 536.
+LaTeX Info: Redefining \sievert on input line 537.
+LaTeX Info: Redefining \millisievert on input line 538.
+Package unitsdef Info: Abbreviations for units of amperage loaded. on input lin
+e 543.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef/config\am
+pabbrv.cfg"
+File: ampabbrv 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of frequency loaded. on input li
+ne 548.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef/config\fr
+eqabbr.cfg"
+File: freqabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of amount of substances loaded. 
+on input line 553.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef/config\mo
+labbrv.cfg"
+File: molabbrv 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of voltage loaded. on input line
+ 558.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef/config\vo
+ltabbr.cfg"
+File: voltabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of volume loaded. on input line 
+563.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef/config\vo
+labbrv.cfg"
+File: volabbrv 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of weight loaded. on input line 
+568.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef/config\we
+igabbr.cfg"
+File: weigabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of energy loaded. on input line 
+573.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef/config\en
+erabbr.cfg"
+File: enerabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of length loaded. on input line 
+578.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef/config\le
+ngabbr.cfg"
+File: lengabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of time loaded. on input line 58
+3.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/unitsdef/config\ti
+meabbr.cfg"
+File: timeabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: No local config file found. on input line 589.
+)
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count119
+\Gm@cntv=\count120
+\c@Gm@tempcnt=\count121
+\Gm@bindingoffset=\dimen130
+\Gm@wd@mp=\dimen131
+\Gm@odd@mp=\dimen132
+\Gm@even@mp=\dimen133
+\Gm@layoutwidth=\dimen134
+\Gm@layoutheight=\dimen135
+\Gm@layouthoffset=\dimen136
+\Gm@layoutvoffset=\dimen137
+\Gm@dimlist=\toks25
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+cfg")) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
+
+("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 24.
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 24.
 
 ("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -384,11 +777,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count119
+\c@section@level=\count122
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -397,17 +790,17 @@ LaTeX Info: Redefining \nameref on input line 22.
 ("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
-\scratchdimen=\dimen130
+\scratchcounter=\count123
+\scratchdimen=\dimen138
 \scratchbox=\box34
-\nofMPsegments=\count121
-\nofMParguments=\count122
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count123
-\MPscratchDim=\dimen131
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
-\everyMPtoPDFconversion=\toks26
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen139
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks27
 )
 ("C:\Users\Matej\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
 base.sty"
@@ -427,130 +820,407 @@ G,.JBIG2,.JB2,.eps]
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
- [1
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
 
 {C:/Users/Matej/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(main.toc)
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2] [3] (content/ssec1.tex) (content/ssec2.tex) (content/ssec3.tex
-[4]
-Overfull \hbox (1.13486pt too wide) in paragraph at lines 8--20
-[][] 
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 \newpage
+              [1
+
+] (content/ssec_intro.tex) (content/ssec_basic_info.tex)
+(content/ssec_br_types.tex) (content/ssec_chemostat_param.tex [2]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[]|\T1/cmr/m/n/10 mg na g pôdy;
  []
 
-[5]) (content/ssec4.tex [6]) [7] (content/ssec5.tex
-<images/step_change.png, id=150, 643.6547pt x 440.39531pt>
-File: images/step_change.png Graphic file (type png)
-<use images/step_change.png>
-Package pdftex.def Info: images/step_change.png  used on input line 5.
-(pdftex.def)             Requested size: 345.0pt x 236.06274pt.
- [8 <./images/step_change.png (PNG copy)>]
-<images/spec_grow_rate_comparison.png, id=158, 834.11626pt x 527.72156pt>
-File: images/spec_grow_rate_comparison.png Graphic file (type png)
-<use images/spec_grow_rate_comparison.png>
-Package pdftex.def Info: images/spec_grow_rate_comparison.png  used on input li
-ne 14.
-(pdftex.def)             Requested size: 345.0pt x 218.27565pt.
-<images/dyn_wo_inhb.png, id=159, 643.6547pt x 440.39531pt>
-File: images/dyn_wo_inhb.png Graphic file (type png)
-<use images/dyn_wo_inhb.png>
-Package pdftex.def Info: images/dyn_wo_inhb.png  used on input line 22.
-(pdftex.def)             Requested size: 172.5pt x 118.02802pt.
-<images/dyn_inhb.png, id=160, 643.6547pt x 440.39531pt>
-File: images/dyn_inhb.png Graphic file (type png)
-<use images/dyn_inhb.png>
-Package pdftex.def Info: images/dyn_inhb.png  used on input line 27.
-(pdftex.def)             Requested size: 172.5pt x 118.02802pt.
+) (content/ssec_math_models.tex [3]) [4] (content/ssec_dynamics.tex
+Package epstopdf Info: Source file: <images/step_change.eps>
+(epstopdf)                    date: 2020-01-08 18:20:28
+(epstopdf)                    size: 124375 bytes
+(epstopdf)             Output file: <images/step_change-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-08 18:22:30
+(epstopdf)                    size: 41183 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/step_change-eps-conv
+erted-to.pdf images/step_change.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/step_change-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/step_change-eps-converted-to.pdf, id=146, 364.36125pt x 293.095pt>
+File: images/step_change-eps-converted-to.pdf Graphic file (type pdf)
+<use images/step_change-eps-converted-to.pdf>
+Package pdftex.def Info: images/step_change-eps-converted-to.pdf  used on input
+ line 5.
+(pdftex.def)             Requested size: 298.75264pt x 240.32602pt.
+Package epstopdf Info: Source file: <images/spec_grow_rate_comparison.eps>
+(epstopdf)                    date: 2020-01-07 20:53:49
+(epstopdf)                    size: 38198 bytes
+(epstopdf)             Output file: <images/spec_grow_rate_comparison-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-01-07 20:55:08
+(epstopdf)                    size: 17049 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/spec_grow_rate_compa
+rison-eps-converted-to.pdf images/spec_grow_rate_comparison.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/spec_grow_rate_comparison-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<images/spec_grow_rate_comparison-eps-converted-to.pdf, id=150, 384.43625pt x 2
+93.095pt>
+File: images/spec_grow_rate_comparison-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use images/spec_grow_rate_comparison-eps-converted-to.pdf>
+Package pdftex.def Info: images/spec_grow_rate_comparison-eps-converted-to.pdf 
+ used on input line 14.
+(pdftex.def)             Requested size: 298.75264pt x 227.7858pt.
+Package epstopdf Info: Source file: <images/dyn_Monod.eps>
+(epstopdf)                    date: 2020-01-07 21:12:11
+(epstopdf)                    size: 46064 bytes
+(epstopdf)             Output file: <images/dyn_Monod-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-07 21:14:16
+(epstopdf)                    size: 15743 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/dyn_Monod-eps-conver
+ted-to.pdf images/dyn_Monod.eps>
+(epstopdf)             \includegraphics on input line 22.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/dyn_Monod-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/dyn_Monod-eps-converted-to.pdf, id=151, 361.35pt x 293.095pt>
+File: images/dyn_Monod-eps-converted-to.pdf Graphic file (type pdf)
+<use images/dyn_Monod-eps-converted-to.pdf>
+Package pdftex.def Info: images/dyn_Monod-eps-converted-to.pdf  used on input l
+ine 22.
+(pdftex.def)             Requested size: 213.39568pt x 173.09001pt.
+Package epstopdf Info: Source file: <images/dyn_inhb.eps>
+(epstopdf)                    date: 2020-01-07 21:12:12
+(epstopdf)                    size: 45791 bytes
+(epstopdf)             Output file: <images/dyn_inhb-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-07 21:14:17
+(epstopdf)                    size: 17505 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/dyn_inhb-eps-convert
+ed-to.pdf images/dyn_inhb.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/dyn_inhb-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/dyn_inhb-eps-converted-to.pdf, id=152, 361.35pt x 293.095pt>
+File: images/dyn_inhb-eps-converted-to.pdf Graphic file (type pdf)
+<use images/dyn_inhb-eps-converted-to.pdf>
+Package pdftex.def Info: images/dyn_inhb-eps-converted-to.pdf  used on input li
+ne 27.
+(pdftex.def)             Requested size: 213.39568pt x 173.09001pt.
 
 Overfull \hbox (2.22168pt too wide) in paragraph at lines 20--30
 []$[]$ $[]$ 
  []
 
-) [9 <./images/spec_grow_rate_comparison.png (PNG copy)> <./images/dyn_wo_inhb.
-png (PNG copy)> <./images/dyn_inhb.png (PNG copy)>] (content/ssec6.tex
-<images/init_cond_Monod.png, id=171, 834.11626pt x 527.72156pt>
-File: images/init_cond_Monod.png Graphic file (type png)
-<use images/init_cond_Monod.png>
-Package pdftex.def Info: images/init_cond_Monod.png  used on input line 7.
-(pdftex.def)             Requested size: 172.5pt x 109.13379pt.
-<images/phase_Monod.png, id=172, 696.35156pt x 545.78906pt>
-File: images/phase_Monod.png Graphic file (type png)
-<use images/phase_Monod.png>
-Package pdftex.def Info: images/phase_Monod.png  used on input line 12.
-(pdftex.def)             Requested size: 172.5pt x 135.19771pt.
+) (content/ssec_stability.tex [5 <./images/step_change-eps-converted-to.pdf>]
+[6 <./images/spec_grow_rate_comparison-eps-converted-to.pdf> <./images/dyn_Mono
+d-eps-converted-to.pdf> <./images/dyn_inhb-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/init_cond_Monod.eps>
+(epstopdf)                    date: 2020-01-07 20:53:50
+(epstopdf)                    size: 40217 bytes
+(epstopdf)             Output file: <images/init_cond_Monod-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-01-07 20:55:09
+(epstopdf)                    size: 11697 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/init_cond_Monod-eps-
+converted-to.pdf images/init_cond_Monod.eps>
+(epstopdf)             \includegraphics on input line 7.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/init_cond_Monod-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/init_cond_Monod-eps-converted-to.pdf, id=188, 376.40625pt x 290.08376pt
+>
+File: images/init_cond_Monod-eps-converted-to.pdf Graphic file (type pdf)
+<use images/init_cond_Monod-eps-converted-to.pdf>
+Package pdftex.def Info: images/init_cond_Monod-eps-converted-to.pdf  used on i
+nput line 7.
+(pdftex.def)             Requested size: 213.39568pt x 164.45976pt.
+Package epstopdf Info: Source file: <images/phase_Monod.eps>
+(epstopdf)                    date: 2020-01-08 13:15:51
+(epstopdf)                    size: 129881 bytes
+(epstopdf)             Output file: <images/phase_Monod-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-08 13:17:00
+(epstopdf)                    size: 100320 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/phase_Monod-eps-conv
+erted-to.pdf images/phase_Monod.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/phase_Monod-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/phase_Monod-eps-converted-to.pdf, id=189, 422.57875pt x 317.185pt>
+File: images/phase_Monod-eps-converted-to.pdf Graphic file (type pdf)
+<use images/phase_Monod-eps-converted-to.pdf>
+Package pdftex.def Info: images/phase_Monod-eps-converted-to.pdf  used on input
+ line 12.
+(pdftex.def)             Requested size: 213.39568pt x 160.17473pt.
 
 Overfull \hbox (2.22168pt too wide) in paragraph at lines 5--15
 []$[]$ $[]$ 
  []
 
-<images/init_cond_inhb.png, id=177, 834.11626pt x 527.72156pt>
-File: images/init_cond_inhb.png Graphic file (type png)
-<use images/init_cond_inhb.png>
-Package pdftex.def Info: images/init_cond_inhb.png  used on input line 26.
-(pdftex.def)             Requested size: 172.5pt x 109.13379pt.
-<images/phase_inhb.png, id=178, 815.29594pt x 523.9575pt>
-File: images/phase_inhb.png Graphic file (type png)
-<use images/phase_inhb.png>
-Package pdftex.def Info: images/phase_inhb.png  used on input line 31.
-(pdftex.def)             Requested size: 172.5pt x 110.85779pt.
+Package epstopdf Info: Source file: <images/init_cond_inhb.eps>
+(epstopdf)                    date: 2020-01-07 20:53:50
+(epstopdf)                    size: 110601 bytes
+(epstopdf)             Output file: <images/init_cond_inhb-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-01-07 20:55:11
+(epstopdf)                    size: 31889 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/init_cond_inhb-eps-c
+onverted-to.pdf images/init_cond_inhb.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/init_cond_inhb-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/init_cond_inhb-eps-converted-to.pdf, id=194, 379.4175pt x 290.08376pt>
+File: images/init_cond_inhb-eps-converted-to.pdf Graphic file (type pdf)
+<use images/init_cond_inhb-eps-converted-to.pdf>
+Package pdftex.def Info: images/init_cond_inhb-eps-converted-to.pdf  used on in
+put line 26.
+(pdftex.def)             Requested size: 213.39568pt x 163.15399pt.
+Package epstopdf Info: Source file: <images/phase_inhb.eps>
+(epstopdf)                    date: 2020-01-08 13:15:48
+(epstopdf)                    size: 111095 bytes
+(epstopdf)             Output file: <images/phase_inhb-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-08 13:17:01
+(epstopdf)                    size: 102474 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/phase_inhb-eps-conve
+rted-to.pdf images/phase_inhb.eps>
+(epstopdf)             \includegraphics on input line 31.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/phase_inhb-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/phase_inhb-eps-converted-to.pdf, id=195, 422.57875pt x 317.185pt>
+File: images/phase_inhb-eps-converted-to.pdf Graphic file (type pdf)
+<use images/phase_inhb-eps-converted-to.pdf>
+Package pdftex.def Info: images/phase_inhb-eps-converted-to.pdf  used on input 
+line 31.
+(pdftex.def)             Requested size: 213.39568pt x 160.17473pt.
 
 Overfull \hbox (2.22168pt too wide) in paragraph at lines 24--34
 []$[]$ $[]$ 
  []
 
-[10 <./images/init_cond_Monod.png (PNG copy)> <./images/phase_Monod.png (PNG co
-py)>] [11 <./images/init_cond_inhb.png (PNG copy)> <./images/phase_inhb.png (PN
-G copy)>]
-<images/s_in_inhb.png, id=196, 373.395pt x 274.02374pt>
-File: images/s_in_inhb.png Graphic file (type png)
-<use images/s_in_inhb.png>
-Package pdftex.def Info: images/s_in_inhb.png  used on input line 68.
-(pdftex.def)             Requested size: 276.00105pt x 202.55696pt.
-) [12 <./images/s_in_inhb.png (PNG copy)>] [13] (main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
+[7 <./images/init_cond_Monod-eps-converted-to.pdf> <./images/phase_Monod-eps-co
+nverted-to.pdf> <./images/init_cond_inhb-eps-converted-to.pdf> <./images/phase_
+inhb-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/s_in_inhb.eps>
+(epstopdf)                    date: 2020-01-07 20:53:56
+(epstopdf)                    size: 22485 bytes
+(epstopdf)             Output file: <images/s_in_inhb-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-07 20:55:13
+(epstopdf)                    size: 7498 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/s_in_inhb-eps-conver
+ted-to.pdf images/s_in_inhb.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
 
-(main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
+
+pdfTeX warning: pdflatex.exe (file ./images/s_in_inhb-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/s_in_inhb-eps-converted-to.pdf, id=230, 367.3725pt x 294.09875pt>
+File: images/s_in_inhb-eps-converted-to.pdf Graphic file (type pdf)
+<use images/s_in_inhb-eps-converted-to.pdf>
+Package pdftex.def Info: images/s_in_inhb-eps-converted-to.pdf  used on input l
+ine 68.
+(pdftex.def)             Requested size: 298.75264pt x 239.17902pt.
+)
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 101.
+
+(content/ssec_opt_methods.tex) (content/ssec_approx_methods.tex [8])
+(content/ssec_results.tex [9 <./images/s_in_inhb-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/der_approximation.eps>
+(epstopdf)                    date: 2020-01-08 18:52:11
+(epstopdf)                    size: 223271 bytes
+(epstopdf)             Output file: <images/der_approximation-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-01-08 18:54:37
+(epstopdf)                    size: 154241 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/der_approximation-ep
+s-converted-to.pdf images/der_approximation.eps>
+(epstopdf)             \includegraphics on input line 7.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/der_approximation-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<images/der_approximation-eps-converted-to.pdf, id=249, 364.36125pt x 293.095pt
+>
+File: images/der_approximation-eps-converted-to.pdf Graphic file (type pdf)
+<use images/der_approximation-eps-converted-to.pdf>
+Package pdftex.def Info: images/der_approximation-eps-converted-to.pdf  used on
+ input line 7.
+(pdftex.def)             Requested size: 298.75264pt x 240.32602pt.
+Package epstopdf Info: Source file: <images/param_approx_diff_eq.eps>
+(epstopdf)                    date: 2020-01-09 11:05:06
+(epstopdf)                    size: 222137 bytes
+(epstopdf)             Output file: <images/param_approx_diff_eq-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2020-01-09 11:06:31
+(epstopdf)                    size: 152913 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/param_approx_diff_eq
+-eps-converted-to.pdf images/param_approx_diff_eq.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/param_approx_diff_eq-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<images/param_approx_diff_eq-eps-converted-to.pdf, id=251, 367.3725pt x 293.095
+pt>
+File: images/param_approx_diff_eq-eps-converted-to.pdf Graphic file (type pdf)
+<use images/param_approx_diff_eq-eps-converted-to.pdf>
+Package pdftex.def Info: images/param_approx_diff_eq-eps-converted-to.pdf  used
+ on input line 16.
+(pdftex.def)             Requested size: 298.75264pt x 238.3627pt.
+) [10 <./images/der_approximation-eps-converted-to.pdf>] [11 <./images/param_ap
+prox_diff_eq-eps-converted-to.pdf>] (content/ssec_conclusion.tex) [12]
+(main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+ (main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2B2CCB1996D50CCACA6EDEDA6E72EAA9;922.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
+(rerunfilecheck)             Checksum: C00C0EB5A0C6C2369A4846712FCFDCD4;966.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 8425 strings out of 492895
- 125686 string characters out of 3123735
- 237420 words of memory out of 3000000
- 12164 multiletter control sequences out of 15000+200000
- 15879 words of font info for 39 fonts, out of 3000000 for 9000
+ 10079 strings out of 492895
+ 151270 string characters out of 3123735
+ 262053 words of memory out of 3000000
+ 13726 multiletter control sequences out of 15000+200000
+ 15127 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,1279b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,16n,43p,1550b,490s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Matej\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ecrm0900.pk> <C:\Users\Matej\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecti1000.pk> <C:\Users\Matej\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Matej\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Matej\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Matej\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Matej\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Us
-ers\Matej\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.
-pk><C:/Users/Matej/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmex10.pfb><C:/Users/Matej/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Users/Matej/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Matej/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Matej/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mate
-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:
+ec/dpi600\ecrm0500.pk> <C:\Users\Matej\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Matej\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Matej\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Matej\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Matej\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Us
+ers\Matej\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.
+pk> <C:\Users\Matej\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecbx1440.pk> <C:\Users\Matej\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecbx1728.pk> <C:\Users\Matej\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Matej\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Matej\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Matej\AppData\L
+ocal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Matej/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
 /Users/Matej/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr7.pfb><C:/Users/Matej/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Users/Matej/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (14 pages, 748543 bytes).
+mmi10.pfb><C:/Users/Matej/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi5.pfb><C:/Users/Matej/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Matej/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matej/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Matej/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/M
+atej/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Users/Matej/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb>
+Output written on main.pdf (14 pages, 926584 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
