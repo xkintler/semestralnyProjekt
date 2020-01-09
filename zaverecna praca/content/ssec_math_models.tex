@@ -1,5 +1,7 @@
 Najjednoduchším matematickým modelom, ktorý opisuje prietokový biochemický reaktor je tzv. Monod model. Tento model je veľmi obľúbený kvôli svojej jednoduchosti. Zakladá sa na dvoch predpokladoch: \text{1)} špecifická rýchlosť rastu buniek závisí od koncentrácie substrátu a  \text{2)} tvorba biomasy je spojená so spotrebou substrátu. Formulácia rovníc, ktoré popisujú materialovú bilanciu biomasy je nasledovná:
+% RP: spell check ``materialovú''
 \begin{table}[H]
+% RP: Nie je to chyba alebo problem, ale tu by prostredie table vobec nemuselo byt a stacil by samotny tabular
 	\centering
 	\begin{tabular}{ccccc}
 		akumulácia & & množstvo & & množstvo \\
@@ -17,14 +19,13 @@ Najjednoduchším matematickým modelom, ktorý opisuje prietokový biochemický
 	\end{tabular}
 \end{table}
 \noindent Ak uvažujeme, že objem reaktora sa nemení a prítok substrátu sa rovná odtoku suspenzie, potom môžme písať: 
-
 \begin{align}
 	&V\left(\frac{\dd x}{\dd t}\right) = V\mu(s)x - Fx, \label{eq:1} \\
 	&V\left(\frac{\dd s}{\dd t}\right) = Fs_{in} - Fs - V\frac{1}{Y_{x}}\mu(s)x. \label{eq:2}
 \end{align}
 
 \noindent Ak obe strany rovníc vydelíme objemom reaktora a označíme si pomer $\frac{F}{V} = D$, rýchlosť riedenia, môžme rovnice \ref{eq:1} a \ref{eq:2} upraviť do nasledovného tvaru:
-
+% RP: Rovnice je lepsie referencovat pomocou \eqref
 \begin{align} 
 	&\frac{\dd x}{\dd t} = \left(\mu(s) - D\right)x, \text{kde}  \quad \mu(s) = \mu_{m}\frac{s}{K_{M} + s}, \label{eq:3} \\
 	&\frac{\dd s}{\dd t} = D\left(s_{in} - s\right) - \frac{1}{Y_{x}}\mu(s)x. \label{eq:4}
@@ -52,19 +53,26 @@ Najjednoduchším matematickým modelom, ktorý opisuje prietokový biochemický
 \end{table}
 
 Rovnice \ref{eq:3} a \ref{eq:4} tvoria najjednoduchší opis biochemického reaktora -- Monod model, a význam jednotlivých parametrov je uvedený v Tabuľke \ref{tab: 2}. Avšak, tento model má množstvo nedostatkov. Nedokáže vysvetliť jednotlivé fázy rastu, ktoré sú pozorované experimentálne a to: lag-fázu, smrť buniek na základe hladovania, tvorbu produktu atď. Tieto nedostatky boli doplnené u tzv. štruktorovaných modelov.
+% RP: spell check ``štruktorovaných''
 
-Model, ktorý berie do úvahy aj tvorbu produktu, získame doplnením Monod modelu do nasledovného tvaru: 
-
+Model, ktorý berie do úvahy aj tvorbu produktu, získame doplnením Monod modelu do nasledovného tvaru:
 \begin{align} 
 &\frac{\dd x}{\dd t} = \left(\mu(s) - D\right)x, \label{eq:5} \\
 &\frac{\dd s}{\dd t} = D\left(s_{in} - s\right) - \frac{1}{Y_{x}}\mu(s)x - \frac{1}{Y_{p}}\nu x, \label{eq:6} \\
 &\frac{\dd p}{\dd t} = \nu x - Dp, \label{eq:7}
 \end{align}
+kde $p$ predstavuje koncentráciu produktu v $gL^{-1}$,
+% RP: Tu uz zrazu nie su pouzite units?
+$Y_{p}$ je
+bezrozmerný
+% RP: Po slovensky je ``bezrozmerový''. ``Rozmerný'' znamena majuci velky rozmer.
+koefcient
+% RP: spell check ``koefcient''
+výťažnosti produktu a $\nu$ predstavuje kinetický člen rýchlosti tvorby produktu v jednotkách času napr. $ h^{-1} $. Do rovnice \ref{eq:4} sme doplnili časť, ktorá vraví, že časť substrátu sa spotrebuje na tvorbu produktu a rovnica \ref{eq:7} predstavuje obyčajnú materiálovú bilanciu produktu.
 
-\noindent kde $p$ predstavuje koncentráciu produktu v $gL^{-1}$, $Y_{p}$ je bezrozmerný koefcient výťažnosti produktu a $\nu$ predstavuje kinetický člen rýchlosti tvorby produktu v jednotkách času napr. $ h^{-1} $. Do rovnice \ref{eq:4} sme doplnili časť, ktorá vraví, že časť substrátu sa spotrebuje na tvorbu produktu a rovnica \ref{eq:7} predstavuje obyčajnú materiálovú bilanciu produktu.
-
-Ak by sme chceli do modelu zakomponovať tendenciu úmrtia mikroorganizmov počas hladovania, treba upraviť špecifickú rýchlosť rastu $\mu(s)$ tak, že bude obsahovať inhibičný člen $ K_i $, ktorého rozmer je $gL^{-1}$. Špecifická rýchlosť rastu potom nadobudne tvar:
-
+Ak by sme chceli do modelu zakomponovať tendenciu úmrtia mikroorganizmov počas hladovania, treba upraviť špecifickú rýchlosť rastu $\mu(s)$ tak, že bude obsahovať inhibičný člen $ K_i $, ktorého rozmer je $gL^{-1}$.
+% RP: S tymto nesuhlasim. Inhibicia modeluje situaciu ked sa prilis vysoka koncentracia substratu stane pre mikroorganizmy toxickou. Dzem musi obsahovat 50% cukru prave preto aby sa nepokazil.
+Špecifická rýchlosť rastu potom nadobudne tvar:
 \begin{equation} \label{eq:8}
 	\mu(s) = \mu_{m}\frac{s}{K_{M} + s + \frac{s^2}{K_i}}.
 \end{equation}
