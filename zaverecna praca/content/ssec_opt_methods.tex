@@ -1,17 +1,12 @@
-Pri návrhu optimalizácie, 
-% RP: Toto zacina trochu zhurta. Nepovedali ste, ze idete nieco optimalizovat a uz vravite ``prin navrhu optimalizacie''. Citatel netusi ako ma tento text spracovat.
-by našim cieľom mohlo byť minimalizovať výrobné náklady alebo maximalizovať efektívnosť výroby. Optimalizačný algoritmus je postup, ktorý sa vykonáva iteratívne porovnávaním rôznych riešení, až kým sa nenájde optimálne alebo uspokojivé riešenie. Dnes existujú dva odlišné typy optimalizačných algoritmov.
+Je zrejmé, že nastaviť optimálny chod biochemického reaktora je zložitá záležitosť a jeho pracovný réžim treba prispôsobiť na základe daného fermentačného média, teda na základe jeho vlastných parametrov -- maximálnej špecifickej rýchlosti rastu, Michaelisovej konštanty a prípadne konštanty inhibície. Tie však často nepoznáme a je nutné ich získať z jednotlivých časových priebehov, najčastejšie koncentrácie substrátu. Vhodnou formuláciou optimalizačného problému môžeme tieto parametre odhadnúť z nameraných údajov.
+
+Pri návrhu optimalizácie, by našim cieľom mohlo byť minimalizovať výrobné náklady alebo maximalizovať efektívnosť výroby. Optimalizačný algoritmus je postup, ktorý sa vykonáva iteratívne porovnávaním rôznych riešení, až kým sa nenájde optimálne alebo uspokojivé riešenie. Dnes existujú dva odlišné typy optimalizačných algoritmov.
 
 \begin{itemize}
 	\item[\textbf{(a)}] \textbf{Deterministické algoritmy.} 
-	Tieto využívajú špecifické pravidlá na posúvanie riešenia 
-	% RP: Skor kandidatov na riesenia ako ``riešenia''
-	od jedného k druhému. Ide o metódy, ktoré sú založené na poznaní gradientu účelovej funkcie alebo na odhade gradientu. Môže sem patriť napr. metóda poklesu gradientu, Newtonova metóda, simplexova (Nelder--Mead) metóda alebo metóda hľadania extrému.
-	% RP: ``metóda hľadania extrému'' je vlastne akakolvek optimalizacna metoda. Neviem, co tu presne mate na mysli.
+	Tieto využívajú špecifické pravidlá na posúvanie kandidátov riešenia od jedného k druhému. Ide o metódy, ktoré sú založené na poznaní gradientu účelovej funkcie alebo na odhade gradientu. Môže sem patriť napr. metóda poklesu gradientu, Newtonova metóda, simplexova (Nelder--Mead) metóda atď.
 	\item[\textbf{(a)}] \textbf{Stochastické algoritmy.} 
-	Tieto majú povahu pravdepodobnostných pravidiel.
-	% RP: Neviem co je ``povaha pravdepodobnostných pravidiel''. Asi najjednoduchsie, kym deterministicke metody prehladavaju optimalizacny priestor systematicky, stochasticke metody ho prehladavaju nahodne.
-	Stávajú sa veľmi obľúbenými kvôli určitým vlastnostiam, ktoré deterministické algoritmy nemajú. Sem môžu patriť metódy ako simulované žíhanie alebo metóda Luus--Jaakola.
+	Kým deterministické metódy prehľadávajú optimalizačný priestor systematicky, stochastické metódy ho prehľadávajú náhodne. Stávajú sa veľmi obľúbenými kvôli určitým vlastnostiam, ktoré deterministické algoritmy nemajú. Sem môžu patriť metódy ako simulované žíhanie alebo metóda Luus--Jaakola.
 \end{itemize}
 
 Metódy založené na poznaní gradientu účelovej funkcie vedú k lokálnemu optimu, zatiaľ čo stochastické metódy často vedú ku globálnemu optimu, ale vyžadujú značné množstvo vyhodnotení účelovej funkcie. Z tohto dôvodu, pre rozmerovo väčšie problematiky, sú negradientové metódy menej žiadúce.

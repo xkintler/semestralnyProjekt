@@ -1,8 +1,11 @@
-Výhodou prietokových bioreaktorov je, že pri dodržaní správnych podmienok, dokážeme systém uviesť do časovo konštantného stavu, ktorý nepretržito pracuje. Avšak nájdenie správnych parametrov, nemusí byť také triviálne, ako by sa na prvý pohľad mohlo zdať. Z rovnice \ref{eq:5}
-vyplýva, že na dosiahnutie ustáleného stavu, je nutné, aby sa špecifická rýchlosť rastu rovnala rýchlosti riedenia, takto získame netriviálne riešenie, alebo je počiatočná koncentrácia biomasy nulová a takto získame triviálne riešenie.
-% RP: Nemusi to byt len pociatocna koncentacia biomasy, ktora je nulova. Akonahle x=0 v case T, bude sa x rovnat 0 pre t>T
-Na Obr. \ref{fig:2} môžno viďieť nenulové ustálené stavy Monod modelu, ale aj modelu s inhibíciou. Je dobré si všimnúť, že zatiaľ čo Monod model má iba jeden nenulový ustálený stav, model s inhibíciou už obsahuje dva.
-% RP: Tento opis musi prist ked uvadzate obrazok a tu sa na existenciu viacerych ustalenych stavovo uz iba odvolavate. 
+Výhodou prietokových bioreaktorov je, že pri dodržaní správnych podmienok, dokážeme systém uviesť do časovo konštantného stavu, ktorý nepretržito pracuje. Avšak nájdenie správnych parametrov, nemusí byť také triviálne, ako by sa na prvý pohľad mohlo zdať. Z rovnice \eqref{eq:5} vyplýva, že na dosiahnutie ustáleného stavu, je nutné, aby sa buď špecifická rýchlosť rastu rovnala rýchlosti riedenia (takto získame netriviálne riešenie), alebo koncentrácia biomasy je v ľubovolnom čase rovná nule (takto získame triviálne riešenie -- stav vymytia). Ustálené stavy modelov môžeme vidieť na Obr. \ref{fig:2}, ktorý zobrazuje priebeh špecifickej rýchlosti rastu od koncentrácie substrátu pri konštantnej rýchlosti riedenia. Je dobré si všimnúť, že zatiaľ čo Monod model má iba jeden nenulový ustálený stav, model s inhibíciou už obsahuje dva.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.7\linewidth]{images/spec_grow_rate_comparison}
+	\caption[]{Porovnanie priebehu špecifickej rýchlosti rastu Monod modelu (čierna) a modelu s inhibíciou (modrá). Oranžovou bodkočiarkovanou čiarou je znázornená zvolená rýchlosť riedenia $D = $ 0.3\unitfrac{1}{\hour}. Červeným štvorčekom sú označené nenulové stabilné ustálené stavy, modrou krúžkom je označený nestabilný stav.}
+	\label{fig:2}
+\end{figure}
 
 \begin{figure}
 	\begin{subfigure}{.5\textwidth}
@@ -19,14 +22,9 @@ Na Obr. \ref{fig:2} môžno viďieť nenulové ustálené stavy Monod modelu, al
 	\label{fig:4}
 \end{figure}
 
-Na  fázovom diagrame Monod modelu(Obr. \ref{fig:4} napravo), môžme 
-%RP: ``môžme'' nie je po slovensky
-vidieť oba ustálené stavy. Ak zvolíme začiatočné podmienky rôzne od nuly (najmä pri koncentrácii biomasy -- vedú k triviálnemu riešeniu a systémom bude pretekať čerstvý substrát) pri konštantnej rýchlosti riedenia menšej alebo rovnej ako špecifická rýchlosť rastu, sa vždy dostaneme do toho istého ustáleného stavu.
+Na  fázovom diagrame Monod modelu(Obr. \ref{fig:4} napravo), môžeme vidieť oba ustálené stavy. Ak zvolíme začiatočné podmienky rôzne od nuly (najmä pri koncentrácii biomasy -- vedú k triviálnemu riešeniu a systémom bude pretekať čerstvý substrát) pri konštantnej rýchlosti riedenia menšej alebo rovnej ako špecifická rýchlosť rastu, sa vždy dostaneme do toho istého ustáleného stavu.
 
-Model s inhibíciou vykazuje odlišné správanie. Na fázovom diagrame (Obr.\ref{fig:5} napravo) môžme sledovať už dva nenulové stavy a jeden nulový. Výsledkom triviálneho riešenia je "výplach", ktorý vedie k nulovej koncentrácii biomasy a systémom bude pretekať čerstvý substrát. Ako si môžme všimnúť, vždy keď je rýchlosť rastu biomasy pomaľšia
-% RP: spell check ``pomaľšia''
-ako je odtok suspenzie zo sýstému, dostneme sa do výplachu.
-% RP: Ako som uz pisal vyssie, opis vyplachu musi prist skor. Tu by sa mohlo uz rozobrat aj preco sa do vyplachu system dostane/nedostane
+Model s inhibíciou vykazuje odlišné správanie. Na fázovom diagrame (Obr. \ref{fig:5} napravo) môžeme sledovať už dva nenulové stavy a jeden nulový. Výsledkom triviálneho riešenia je "výplach", ktorý vedie k nulovej koncentrácii biomasy. Ako si môžeme všimnúť, vždy keď je rýchlosť rastu biomasy pomalšia ako je odtok suspenzie zo systému, dostaneme sa do výplachu. Ostali dva netriviálne stavy, z ktorých jeden je nestabilný a druhý je stabilný. V okolí nestabilného stavu môžu nastať dva prípady a to v závislosti od počiatočných podmienok. Ak sa na Obr. \ref{fig:2} nachádzame v okolí nestabilného stavu od neho naľavo, to znamená, že rýchlosť rastu biomasy je väčšia ako odtok suspenzie, dostaneme sa do nenulového ustáleného stavu. Ak sa nachádzame viac napravo, dostaneme sa do výplachu. V skutočnosti by sme to mohli interpretovať aj nasledovne. Ak sa nachádzame v okolí nestabilného stavu naľavo, to znamená, že v dôsledku inhibície nám odumierajú niektoré slabšie mikroorganizmy, ale stále je v systéme dostatok takých, ktoré dokážu znížiť množstvo substrátu v prospech nárastu biomasy a produktu. Tým pádom nám klesne koncentrácia substrátu (pokles koncentrácie substrátu bude sprevádzaný aj poklesom koncentrácie biomasy) a dostaneme sa do stabilného ustáleného stavu. Ak sa však nachádzame napravo od nestabilného stavu, letalita v dôsledku vysokého osmotického tlaku je omnoho väčšia ako vitalita mikroorganizmov a postupne inklinujeme k stavu vymytia.
 
 \begin{figure}
 	\begin{subfigure}{.5\textwidth}
@@ -43,13 +41,9 @@ ako je odtok suspenzie zo sýstému, dostneme sa do výplachu.
 	\label{fig:5}
 \end{figure}
 
-% RP: Nerozumiem takemuto zaciatku odseku ``Ostali ...'' Kde ostali? Novy odsek by mal zacat novu myslienku a zaroven nadviazat na predchadzajuci text.
-\noindent Ostali dva netriviálne stavy, z ktorých jeden je nestabilný a druhý je stabilný. V okolí nestabilného stavu môžu nastať dva prípady a to v závislosti od počiatočných podmienok. Ak sa nachádzame na Obr. \ref{fig:2} naľavo, to znamená, že rýchlosť rastu biomasy je väčšia ako odtok suspenzie, dostaneme sa do nenulového ustáleného stavu. Ak sa nachádzame viac napravo, dostaneme sa do výplachu.
-
 \begin{table}
 	\centering
-	\caption{Nastavenie parametrov Monod modelu a modelu s inhibíciou. Údaje pod čiarou mali danú veľkosť v prípade, že sa nemenili.}
-	% RP: Toto je nepresne ``Údaje pod čiarou mali danú veľkosť v prípade, že sa nemenili.'' Nevedel by som na zaklade tohto zopakovat vasu simulaciu. Rozumiem zameru tohto opisu a myslim, ze je dobry ale vysledok je matuci. Dala by sa tu napr. dat vedlajsia tabulka, kde by boli aj stvrty stlpec ``Rozsah'' a tam by sa uviedol rozsah zmien parametrov.
+	\caption{Nastavenie parametrov Monod modelu a modelu s inhibíciou.}
 	\label{tab: 3}
 	\begin{tabular}{lll}
 		\hline
@@ -63,7 +57,6 @@ ako je odtok suspenzie zo sýstému, dostneme sa do výplachu.
 		$Y_{p}$ & 1 & \\
 		$V$ & 3.33 & \liter \\
 		$F$ & 1 & \unitfrac{\liter}{\hour} \\
-		\hline
 		$s_{in}$ & 20 & \unitfrac{\gram}{\liter} \\
 		$p_0, s_0$ & 0 & \unitfrac{\gram}{\liter} \\
 		$x_0$ & 10 & \unitfrac{\gram}{\liter} \\
@@ -71,14 +64,11 @@ ako je odtok suspenzie zo sýstému, dostneme sa do výplachu.
 	\end{tabular}
 \end{table}
 
-Ďalší parameter, ktorý dokáže ovplyvniť stabilitu systému, je koncentrácia čerstvého substrátu. Z Obr. \ref{fig:7} je zrejmé, že ak koncentrácia čerstvého roztoku je nižšia ako nejaká minimálna hodnota, náš systém pôjde do výplachu. Koncentrácia čerstvého substrátu ovplyvňuje špecifickú rýchlosť rastu (viď Obr. \ref{fig:2} ). Tým pádom ak sa nachádzame v oblasti pod prvým nenulovým ustáleným stavom (ten v takomto prípade neexistuje, pretože sme mimo pracovného nastavenia) dochádza k výplachu. Ak sa chceme dostať do nenulového ustáleného stavu, je nutné aby koncentrácia čerstvého substrátu bola vyššia ako koncentrácia v prvom nenulovom ustálenom stave.
-% RP: Opat rozumiem zameru a je dobry. Vo vysledku ale nerozumiem...najviac ma matu slovne spojenia ``prvy nenulovy''. Podla coho je prvy? Podla coho je nenulovy? Nulovy ustaleny stav by mal (x, s) = (0, 0) a taky nie je.
-Pri Monod modely by sme mohli ísť s touto koncentráciou do nekonečna, kde by sme dosiahli maximálnu rýchlosť rastu. Ale na rozdiel od Monod modelu, pri modely s inhibícou, by od istého momentu ($S^{*} = \sqrt{K_M K_i}$) so zväčšujúcou sa koncentráciou čerstvého substrátu klesala špecifická rýchlosť rastu, ktorá sa limitne blíži k nule a koncentrácia biomasy padne na nulu.
-% RP: ``padne na nulu'' -> ``klesne na nulu'' je vhodnejsi vyraz
+Ďalší parameter, ktorý dokáže ovplyvniť stabilitu systému, je koncentrácia čerstvého substrátu. Z Obr. \ref{fig:7} je zrejmé, že ak koncentrácia čerstvého roztoku je nižšia ako nejaká minimálna hodnota, náš systém pôjde do výplachu. Koncentrácia čerstvého substrátu ovplyvňuje špecifickú rýchlosť rastu (viď Obr. \ref{fig:2} ). Tým pádom ak sa nachádzame v oblasti pod stabilným ustáleným stavom (ten v takomto prípade neexistuje, pretože sme mimo pracovného nastavenia) dochádza k výplachu. Ak sa chceme dostať do stabilného ustáleného stavu, je nutné aby koncentrácia čerstvého substrátu bola vyššia ako koncentrácia v prvom stabilnom ustálenom stave. Pri Monod modely by sme mohli ísť s touto koncentráciou do nekonečna, kde by sme dosiahli maximálnu rýchlosť rastu. Ale na rozdiel od Monod modelu, pri modely s inhibíciou, by od istého momentu ($S^{*} = \sqrt{K_M K_i}$) so zväčšujúcou sa koncentráciou čerstvého substrátu klesala špecifická rýchlosť rastu, ktorá sa limitne blíži k nule a koncentrácia biomasy by tak klesla na nulu.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=.7\linewidth]{images/s_in_inhb}
-	\caption[]{Závislosť koncentrácie substrátu od koncentrácie biomasy v ustálenom stave pri rôznych koncentráciach čerstvého substratu $s_{in}$.}
+	\caption[]{Závislosť koncentrácie substrátu od koncentrácie biomasy v ustálenom stave pri rôznych koncentráciách čerstvého substrátu $s_{in}$.}
 	\label{fig:7}
 \end{figure}

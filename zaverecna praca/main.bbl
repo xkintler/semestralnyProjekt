@@ -9,14 +9,19 @@ Reinaldo Hernández and Sebastian Engell.
   including Biosystems DYCOPS 2019.
 
 \bibitem{ref2}
-N.S. Panikov.
-\newblock Kinetics of microbial processes☆.
-\newblock In {\em Reference Module in Earth Systems and Environmental
-  Sciences}. Elsevier, 2016.
+Nicolai Panikov.
+\newblock {\em Kinetics of Microbial Processes. In:}.
+\newblock 12 2016.
 
 \bibitem{ref1}
 Jagriti Singh, Nirmala Kaushik, and Soumitra Biswas.
-\newblock Bioreactors -- technology \& design analysis.
-\newblock {\em The Scitech Journal}, 1, 06 2014.
+\newblock Bioreactors – technology \& design analysis.
+\newblock 06 2014.
+
+\bibitem{SRINIVASAN20031}
+B.~Srinivasan, S.~Palanki, and D.~Bonvin.
+\newblock Dynamic optimization of batch processes: I. characterization of the
+  nominal solution.
+\newblock {\em Computers \& Chemical Engineering}, 27(1):1 -- 26, 2003.
 
 \end{thebibliography}
