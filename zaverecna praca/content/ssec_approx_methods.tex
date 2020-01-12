@@ -3,10 +3,10 @@ Na začiatku by bolo vhodné spomenúť, že nie vždy dokážeme získať analy
 Spôsob, akým získať neznáme parametre modelu, môže byť rôzny a zavisí najmä od množstva údajov, ktorými disponujeme. V prípade, že z reálneho zariadenia dokážeme získať viaceré časové priebehy, teda merať, môžeme parametre odhadnúť na základe aproximácie derivácie. Vysvetlíme si to na príklade biochemického reaktora. V prípade, že dokážeme merať časový priebeh koncentrácie biomasy a substrátu, môžeme na základe rovnice \eqref{eq:5} odhadnúť parametre $K_{M}$ a $\mu_{m}$. Optimalizačný problém by mohol byť sformulovaný následovne:
 
 \begin{equation}
-	\min_{\mu_{m},K_{M}} \quad \sum_{n=1}^{N} \left(\Delta_{i}^m-\mu(s_i^m,\mu_{m},K_M)\right)^2,  
+	\min_{\mu_{m},K_{M}} \quad \sum_{n=1}^{N} \left(\Delta_{i}^m-\left(\mu(s_i^m,\mu_{m},K_M)-D\right)x_i^m\right)^2,  
 \end{equation}
 
-\noindent kde $ N $ je celkový počet dát, $ \Delta_{i} = x_{i}^m-x_{i-1}^m $ je diferencia dvoch susedných nameraných hodnôt koncentrácie biomasy, $ s_i^m $ je hodnota nameranej koncentrácie substrátu v \textit{i}--tom bode a tvar špecifickej rýchlosti rastu závisí od daného modelu a môže mať tvar daný buď \eqref{eq:3}, alebo \eqref{eq:8}.
+\noindent kde $ N $ je celkový počet dát, $ \Delta_{i} = \frac{x_{i}^m-x_{i-1}^m}{t_i-t_{i-1}} $ je diferencia dvoch susedných nameraných hodnôt koncentrácie biomasy, $ s_i^m $ je hodnota nameranej koncentrácie substrátu v \textit{i}--tom bode a tvar špecifickej rýchlosti rastu závisí od daného modelu a môže mať tvar daný buď \eqref{eq:3}, alebo \eqref{eq:8}.
 
 Prvý prístup je síce veľmi jednoduchý, ale má svoje nevýhody. Najväčším problémom je však skutočnosť, že bežne meriame iba koncentráciu substrátu a tým pádom prichádzame o značnú časť informácií. Druhý prístup obchádza tento problém a zameriava sa na hľadanie neznámych parametrov samotných diferenciálnych rovníc. Zatiaľ čo návrh optimalizačného problému sa príliš nezmení, zložitosť výpočtu sa výrazne zvýši. V tomto prípade je nutné, v každom nameranom bode, niekoľkokrát numericky vyhodnotiť priebehy koncentrácie biomasy, produktu a aj substrátu a porovnať ich s nameraným signálom  tak, aby sme získali optimálne riešenie. Túto problematiku by sme mohli sformulovať následovne: 
 
@@ -14,7 +14,9 @@ Prvý prístup je síce veľmi jednoduchý, ale má svoje nevýhody. Najväčš�
 	\begin{aligned}
 		\min_{\mu_{m},K_{M}} \quad & \sum_{n=1}^{N} \left(s_{i}^m-s_{i}\right)^2, \\
 		\textrm{s.t.} \quad & \dot{s} = D(s_{in}-s)-\frac{1}{Y_x}\mu(s,\mu_{m},K_M)x-\frac{1}{Y_p}\nu x \\
-							& \dot{x} = (\mu(s,\mu_{m},K_M)-D)x
+							& \dot{x} = (\mu(s,\mu_{m},K_M)-D)x \\
+							& s(0) = s_0 \\
+							& x(0) = x_0
 	\end{aligned}
 \end{equation}
 
